@@ -20,3 +20,24 @@ opt.number = true
 
 -- Display relative line numbers for other lines (helps with motion commands like 5j, 10k)
 opt.relativenumber = true
+
+--------------------------------------------------------------------------------
+-- SOFT WRAP (Visual line wrapping)
+--------------------------------------------------------------------------------
+-- Enable soft wrap: long lines visually wrap to fit the window (doesn't modify the file)
+opt.wrap = true
+
+-- Break lines at word boundaries instead of in the middle of words
+opt.linebreak = true
+
+-- Preserve indentation on wrapped lines
+opt.breakindent = true
+
+-- Optional: Show a visual indicator for wrapped lines (e.g., "↪ " prefix)
+opt.showbreak = "↪ "
+
+--------------------------------------------------------------------------------
+-- MOUSE
+--------------------------------------------------------------------------------
+-- Disable mouse support (forces keyboard-only navigation)
+opt.mouse = ""
